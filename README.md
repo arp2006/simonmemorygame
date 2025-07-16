@@ -1,5 +1,4 @@
-# Game Project
-
+# Simon Memory game
 ## hosted at below link
 
 
@@ -24,7 +23,7 @@ To run this project locally, follow these instructions:
 - Your current score will be displayed.
 - The highest score achieved will be saved until you reset the game.
 
-## High Score Feature
+## High Score Feature (soon)
 The high score feature keeps track of the highest score during gameplay:
 - Upon completing the game, it checks if the current score exceeds the previously saved high score.
 - If it does, the high score is updated and displayed.
