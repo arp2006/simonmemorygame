@@ -3,6 +3,7 @@ var level = 0;
 var sec = [];
 var userSec = [];
 var k=0;
+var hs=0;
 var started = false;
 
 $(document).keypress(function (event) {
@@ -19,7 +20,7 @@ $(".btn").on( "click", function(event) {
   userSec.push(event.target.id);
   playSound(event.target.id);
   animatePress(event.target.id);
-  checkAnswer(level);
+  checkAnswer(level,hs);
 });
 
 function nextSequence(){
@@ -45,7 +46,7 @@ function animatePress(currentColour){
   }, 100);
 }
 
-function checkAnswer(lvl){
+function checkAnswer(lvl,h){
   if(sec[k]===userSec[k]) {
     k++;
     if(lvl===k){
@@ -54,6 +55,10 @@ function checkAnswer(lvl){
         userSec = [];
         k=0
       }, 1000);
+    }
+    if (lvl > h) {
+      hs = lvl;
+      $("h3").text("Highscore: "+hs);
     }
   }
   else{
