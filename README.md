@@ -1,6 +1,6 @@
 # Simon Memory game
-## hosted at below link
-
+## Hosted at below link
+https://arp2006.github.io/simonmemorygame/
 
 ## Overview
 This project is a simple interactive game where users can click buttons to make selections based on color. The game generates a sequence of colors that players must follow.
