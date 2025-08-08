@@ -6,13 +6,10 @@ var k=0;
 var hs=0;
 var started = false;
 
-<<<<<<< HEAD
 $(window).resize(function() {
   adjustHeaderText();
 });
 
-=======
->>>>>>> c0711ba806fd942f44799edefd167a039e94d1ce
 $(document).keypress(function (event) {
   if(!started) {
     console.log(event.key);
@@ -22,7 +19,6 @@ $(document).keypress(function (event) {
   }
 });
 
-<<<<<<< HEAD
 $(".start").on( "click", function(event) {
   if(!started) {
     console.log(event);
@@ -34,8 +30,6 @@ $(".start").on( "click", function(event) {
   }
 });
 
-=======
->>>>>>> c0711ba806fd942f44799edefd167a039e94d1ce
 $(".btn").on( "click", function(event) {
   var userChosenColour = $(this).attr("id");
   userSec.push(event.target.id);
@@ -84,11 +78,8 @@ function checkAnswer(lvl,h){
   }
   else{
     playSound("wrong");
-<<<<<<< HEAD
     $("h2").text("Restart");
     $('#Start').css('opacity', '1');
-=======
->>>>>>> c0711ba806fd942f44799edefd167a039e94d1ce
     $("body").addClass("game-over");
     setTimeout(function() {
       $("body").removeClass("game-over");
@@ -99,7 +90,6 @@ function checkAnswer(lvl,h){
     userSec = [];
     level = k = 0;
   }
-<<<<<<< HEAD
 }
 
 function adjustHeaderText() {
@@ -110,6 +100,4 @@ function adjustHeaderText() {
   else{
     header.textContent = "Press any key to begin";
   }
-=======
->>>>>>> c0711ba806fd942f44799edefd167a039e94d1ce
 }
