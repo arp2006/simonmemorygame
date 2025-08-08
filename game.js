@@ -6,9 +6,13 @@ var k=0;
 var hs=0;
 var started = false;
 
+$(document).ready(adjustHeaderText);
+
 $(window).resize(function() {
   adjustHeaderText();
 });
+
+
 
 $(document).keypress(function (event) {
   if(!started) {
