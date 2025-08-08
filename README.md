@@ -14,12 +14,9 @@ This project is a simple interactive game where users can click buttons to make 
 ## Getting Started
 To run this project locally, follow these instructions:
 
-1. Clone the repository:
-2. Navigate to the project directory:
-<<<<<<< HEAD
+1. Clone the repository.
+2. Navigate to the project directory.
 3. Open `index.html` in your web browser.
-=======
-3. 3. Open `index.html` in your web browser.
 
 ## Usage
 - Press the buttons as instructed by the game to match the color sequence.
