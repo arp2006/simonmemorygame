@@ -20,7 +20,6 @@ To run this project locally, follow these instructions:
 3. Open `index.html` in your web browser.
 =======
 3. 3. Open `index.html` in your web browser.
->>>>>>> c0711ba806fd942f44799edefd167a039e94d1ce
 
 ## Usage
 - Press the buttons as instructed by the game to match the color sequence.
