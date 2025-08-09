@@ -98,7 +98,7 @@ function checkAnswer(lvl,h){
 
 function adjustHeaderText() {
   const header = document.getElementById('level-title');
-  if (window.innerWidth <= 820) {
+  if (window.innerWidth <= 1000) {
     header.textContent = "Click Start to Begin";
   }
   else{
